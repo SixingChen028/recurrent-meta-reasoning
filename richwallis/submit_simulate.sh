@@ -1,0 +1,15 @@
+#!/bin/bash
+
+for reward_std in 1.5
+do
+    for stay_cost in 0.07
+    do
+        for switch_cost in 0.1
+        do
+            for beta_e_final in 0.04
+            do
+                sbatch run_simulate.sh ${reward_std} ${stay_cost} ${switch_cost} ${beta_e_final}
+            done
+        done
+    done
+done
