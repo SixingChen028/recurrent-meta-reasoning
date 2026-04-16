@@ -75,7 +75,7 @@ cd eyechoice
 bash submit_train.sh
 
 # Planning task
-cd eyeplanbash
+cd eyeplan
 bash submit_train.sh
 
 # All other case studies follow the same pattern
