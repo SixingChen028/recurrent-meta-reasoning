@@ -72,15 +72,15 @@ To launch all training jobs for a case study, simply run the submit script:
 ```bash
 # Simple choice task
 cd eyechoice
-bash submit_train.sh
+sbatch submit_train.sh
 
 # Planning task
 cd eyeplan
-bash submit_train.sh
+sbatch submit_train.sh
 
 # All other case studies follow the same pattern
 cd <case_study>
-bash submit_train.sh
+sbatch submit_train.sh
 ```
 
 Each `run_train.sh` requests 8 CPUs, 10 GB RAM per CPU, and runs a SLURM array of 5 jobs (one per random seed). Typical wall-clock times:
@@ -100,9 +100,9 @@ Results (model checkpoints and logs) are saved under `<case_study>/results/`.
 After training, run simulation to generate evaluation data, then run analysis and plotting scripts:
 
 ```bash
-bash run_simulate_*.sh
-bash run_analysis_*.sh
-bash run_plot_*.
+sbatch run_simulate_*.sh
+sbatch run_analysis_*.sh
+sbatch run_plot_*.
 ```
 
 ---
