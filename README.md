@@ -127,4 +127,4 @@ sbatch run_plot_*.
 
 ## Contact
 
-Questions? Please open an issue or contact Sixing Chen at sixing.chen@nyu.edu.
+Questions? Please contact Sixing Chen at sixing.chen@nyu.edu.
