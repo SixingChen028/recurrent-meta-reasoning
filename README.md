@@ -43,7 +43,10 @@ Each directory follows the same structure:
 ├── analysis_*.py         # Analysis
 ├── plot_*.py             # Plotting
 ├── run_*.sh              # SLURM cluster script for running python code
-└── submit_*.sh           # SLURM cluster script for job submission
+├── submit_*.sh           # SLURM cluster script for job submission
+└── results/
+    └── exp_*/            # Trained model checkpoints (one folder per hyperparameter setting and seed)
+        └── net.pth       # Saved network weights
 ```
 
 ---
