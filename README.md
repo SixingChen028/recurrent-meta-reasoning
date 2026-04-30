@@ -38,15 +38,15 @@ Each directory follows the same structure:
 │   ├── argument.py       # Hyperparameter settings
 │   ├── replaybuffer.py   # Episode replay buffer for trainer
 │   └── utils.py          # Utilities for the case study
+├── results/
+│   └── exp_*/            # Trained model checkpoints (one folder per hyperparameter setting and seed)
+│       └── net.pth       # Saved network weights
 ├── train.py              # Training
 ├── simulate*.py          # Simulation / evaluation
 ├── analysis_*.py         # Analysis
 ├── plot_*.py             # Plotting
 ├── run_*.sh              # SLURM cluster script for running python code
-├── submit_*.sh           # SLURM cluster script for job submission
-└── results/
-    └── exp_*/            # Trained model checkpoints (one folder per hyperparameter setting and seed)
-        └── net.pth       # Saved network weights
+└── submit_*.sh           # SLURM cluster script for job submission
 ```
 
 ---
