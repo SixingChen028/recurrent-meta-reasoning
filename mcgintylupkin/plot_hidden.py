@@ -44,7 +44,7 @@ Read data
 """
 
 data = []
-for jobid in range(5):
+for jobid in range(NUM_JOBS):
 
     exp_path = os.path.join(args.path, f'logger_{args.reward_std}_{args.stay_cost}_{args.switch_cost}_{jobid}')
 

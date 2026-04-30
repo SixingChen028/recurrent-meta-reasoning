@@ -63,8 +63,6 @@ if __name__ == '__main__':
     data = model.learn(
         num_episodes = args.num_episodes,
         print_frequency = 2000,
-        checkpoint_frequency = 50000,
-        checkpoint_path = exp_path,
     )
 
     # save net and data

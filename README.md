@@ -4,7 +4,7 @@
 
 *\* equal contribution*
 
-Link to the paper: https://www.biorxiv.org/content/your-link-here
+Link to the paper: https://www.biorxiv.org/content/10.64898/2026.04.14.718499
 
 ---
 
@@ -113,9 +113,12 @@ If you use this code, please cite:
 
 ```bibtex
 @article{chen2026learning,
-  title   = {Learning to select computations in recurrent neural circuits},
-  author  = {Chen, Sixing and Callaway, Frederick and Kumar, Sreejan and Lupkin, Shira M. and Wallis, Joni D. and McGinty, Vincent B. and Rich, Erin L. and Mattar, Marcelo G.},
-  year    = {2026},
+  title     = {Learning to select computations in recurrent neural circuits},
+  author    = {Chen, Sixing and Callaway, Frederick and Kumar, Sreejan and Lupkin, Shira M and Wallis, Joni D and McGinty, Vincent B and Rich, Erin L and Mattar, Marcelo G},
+  journal   = {bioRxiv},
+  pages     = {2026--04},
+  year      = {2026},
+  publisher = {Cold Spring Harbor Laboratory}
 }
 ```
 
