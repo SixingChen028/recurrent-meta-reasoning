@@ -112,8 +112,6 @@ sbatch run_plot_*.
 
 ## Citation
 
-If you use this code, please cite:
-
 ```bibtex
 @article{chen2026learning,
   title     = {Learning to select computations in recurrent neural circuits},
